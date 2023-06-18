@@ -49,7 +49,8 @@ html, body {
       background-color: #404040;
       background-image: url(icicles.jpg);
       background-repeat: repeat;
-      background-size: 99%;
+      width: 99%;
+      height: 98%;
       position: fixed;
       z-index: -100;
       top: 0;
