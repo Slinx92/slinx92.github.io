@@ -20,7 +20,7 @@ html, body {
       src: url('poppins-regular-webfont.woff2') format('woff2'),
            url('poppins-regular-webfont.woff') format('woff');
   }
-  h1, h2, p, inv, button, a:hover {
+  h1, h2, p, inv, button, a:hover, edit {
     color: white
   }
   links {
@@ -61,4 +61,7 @@ html, body {
   hr {
     opacity: 0.5;
     box-shadow: 2px 2px 5px black;
+  }
+  edit {
+    font-size:100px
   }
