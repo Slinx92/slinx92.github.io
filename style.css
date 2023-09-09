@@ -40,6 +40,12 @@ html, body {
     padding: 5px;
     border-radius: 5px;
   }
+  input {
+    background-color: #383838;
+    padding: 5px;
+    border-radius: 5px;
+    color: white
+  }
   button:hover {
     background-color: black
   }
