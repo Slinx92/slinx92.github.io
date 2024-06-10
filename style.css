@@ -72,10 +72,11 @@ html, body {
     font-size:100px
   }
   @keyframes textmove {
-    0%{font-size:0}
-    50%{font-size:35px}
+    0%{font-size: 0px}
+    50%{font-size: 17.5px}
   }
   .welcome {
+    position: absolute;
     background-image: linear-gradient(rgb(255, 255, 255),rgb(90, 208, 255));
     background-clip: text;
     -webkit-text-fill-color: transparent;
