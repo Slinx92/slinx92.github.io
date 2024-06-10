@@ -71,3 +71,16 @@ html, body {
   edit {
     font-size:100px
   }
+  @keyframes textmove {
+    0%{font-size:0}
+    50%{font-size:35px}
+  }
+  .welcome {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(90, 208, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: textmove;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    text-shadow:none;
+  }
